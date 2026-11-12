@@ -1,2 +1,18 @@
-*__pycahce__*
+*__pycache__*
 *.pyc
+*.pyo
+
+# venv
+venv/
+
+# Large binary files — model downloaded at runtime by dashboard.py
+models/best.pt
+
+# Videos — user-supplied or generated
+input_videos/*.mp4
+input_videos/_uploads/
+output_videos/*.avi
+output_videos/*.mp4
+
+# Streamlit cache
+.streamlit/secrets.toml
